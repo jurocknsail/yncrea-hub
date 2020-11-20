@@ -7,10 +7,6 @@ edit_uri: ""
 site_description: >-
   HUB for all the courses & other tips !
   <br><br>
-  <i>
-     <a href='https://jurocknsail.github.io/yncrea-cloudcomputing/'>  - Cloud Computing</a><br><br>
-     <a href='https://jurocknsail.github.io/yncrea-sysexp/'> - SysExp</a>
-  </i>
 
 nav:
   - Home: index.md
