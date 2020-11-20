@@ -1,0 +1,94 @@
+site_name: 'Yncrea - Hub'
+
+# Repository
+repo_name: yncrea-hub
+repo_url: https://github.com/jurocknsail/yncrea-hub
+edit_uri: ""
+site_description: >-
+  HUB for all the courses & other tips !
+  <br><br>
+  <i>
+     <a href='https://jurocknsail.github.io/yncrea-cloudcomputing/'>  - Cloud Computing</a><br><br>
+     <a href='https://jurocknsail.github.io/yncrea-sysexp/'> - SysExp</a>
+  </i>
+
+nav:
+  - Home: index.md
+
+theme:
+  language: en
+  name: 'material'
+  logo: assets/images/yncrea.png
+  favicon: assets/images/yncrea.png
+  palette:
+    primary: cyan
+    accent: cyan
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - tabs
+    - instant
+    - navigation.instant
+    - navigation.tabs
+  custom_dir: material
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: ⚓︎
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+copyright: '&copy; 2020 Julien Berger'
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jurocknsail
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/julien-berger-0a9671154/
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
