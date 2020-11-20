@@ -2,7 +2,7 @@
 
 # About
 
-HUB for all the courses & other tips !
+HUB for all the courses & other tips ! 
 
 [CLOUD COMPUTING](https://jurocknsail.github.io/yncrea-cloudcomputing/)  
 [SYSEXP](https://jurocknsail.github.io/yncrea-sysexp/)
