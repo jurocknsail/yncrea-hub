@@ -6,7 +6,6 @@ repo_url: https://github.com/jurocknsail/yncrea-hub
 edit_uri: ""
 site_description: >-
   HUB for all the courses & other tips !
-  <br><br>
 
 nav:
   - Home: index.md
